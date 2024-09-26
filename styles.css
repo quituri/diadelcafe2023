@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'GolosText';
+    src: url('./tipografia/GolosText-Medium.woff2') format('woff2'),
+        url('./tipografia/GolosText-Medium.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+}
+
+
+body {
+    background-color: #ffffcc;
+}
+
+button {
+    font-family: "GolosText";
+    background-color: #003333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: "GolosText";
+    color: #ffffcc;
+    padding-right: 35px;
+    margin-top: -10px !important;
+}
+
+button:active {
+    color: #ff6600;
+    background-color: #ffffcc;
+    
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.botones_abajo {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imagenes {
+    width: 102%;
+    margin: 40px 0 0 -5px;
+} 
+
+.contenedor_botones {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header_flotante {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #003333;
+    box-shadow: 0 5px 5px #003333;
+    position: fixed;
+    top: 0;
+    width: 102%;
+    height: 35px;
+    max-height: 35px;
+    padding: 15px 8px 5px 8px;
+}
+
+.boton_volver {
+    background-color: #ffffcc;
+    color: #003333;
+    font-size: 14px;
+    padding: 5px;
+    width: 60px;
+    margin-top: 0;
+}
+
+.boton_volver_abajo {
+    background-color: #003333;
+    color: #ffffcc;
+    ;
+    font-size: 20px;
+    padding: 10px;
+    width: 90px;
+    margin-top: 0;
+}
+
+#escudo {
+    width: 50%;
+    margin: 30px 0 10px 0;
+}
+
+#cronograma {
+    width: 120px;
+}
+
+#cronograma_abajo {
+    width: 140px;
+}
+
+#indicaciones {
+    font-size: 17px;
+    background-color: #ff6600;
+}
+
